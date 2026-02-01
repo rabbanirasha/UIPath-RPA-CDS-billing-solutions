@@ -6,7 +6,8 @@
  	- attachment 2  
 * What required 500+ repetitions of a step amongst other steps now requires only one step.
 
-**Total CDS Billing solutions**
+**Total CDS Billing solution**  
+------------------------------
 
 Files that are needed for input:  attach1.xlsx |  attach2.xlsx | susp.xlsx | dpinfo.xlsx | attach1.pdf | attach2.pdf | susp.pdf | susplist.pdf  
 
@@ -28,7 +29,8 @@ Files that are needed for input:  attach1.xlsx |  attach2.xlsx | susp.xlsx | dpi
  	- the fourth column (D) is INT(C).  
  	- the fifth column(E) is IF(C>D,D+1,D), which is the no of pages for each DPID.  
 
-**AAMF RPA**
+**AAMF RPA**  
+------------
 
 This is just a simple pdf splitter which is also a part of *Total CDS Billing solutions.* Just the same like before, the xlsx specifies how the pdf should split and saves the splits into respective folder.
 
