@@ -1,0 +1,278 @@
+{
+  "Snapshot": {
+    "Id": "bbee76d2-9fed-4b62-806c-f60b6f34d3a3",
+    "ExpressionLanguage": "VisualBasic",
+    "ProjectType": "Process",
+    "Name": "Total CDS Billing Solution",
+    "Description": "Combines Folder Creation, CDS Invoice, Suspension Invoice, Suspension List, Attachment 1 and 2 into a single process.\r\nRequires pdf and xlsx named susp, susplist, attach1 and attach2, and dpinfo.xlsx in D drive.",
+    "LastModifiedTime": "2026-01-31T09:22:16.4603343Z",
+    "CreationTime": "2026-01-31T09:22:16.4603343Z",
+    "UserId": "e886c713-ec03-41c3-a2c2-0f5fca7d2d04",
+    "RootFolder": {
+      "Name": "bbee76d2-9fed-4b62-806c-f60b6f34d3a3",
+      "Folders": [
+        {
+          "Id": "ca45fc55-b0f3-4987-9620-c1efa042eda6",
+          "Name": ".tmh",
+          "Folders": [],
+          "Files": [
+            {
+              "Id": "c0530e41-d3c5-4835-821b-1f8be682a5de",
+              "Name": "config.json",
+              "IsMain": false
+            }
+          ]
+        },
+        {
+          "Id": "bd569f37-272c-416a-a9f1-a96d770319e3",
+          "Name": ".objects",
+          "Folders": [],
+          "Files": [
+            {
+              "Id": "267d0bb7-55f4-4e95-8d78-c01d432f132e",
+              "Name": ".type",
+              "IsMain": false
+            },
+            {
+              "Id": "fcdbf081-167a-4bc4-99a6-4f42e754a53a",
+              "Name": ".metadata",
+              "IsMain": false
+            }
+          ]
+        },
+        {
+          "Id": "a789421f-ffa8-4116-a971-482947d61b61",
+          "Name": ".package",
+          "Folders": [],
+          "Files": [
+            {
+              "Id": "7e5f4139-31f3-43de-a013-b78b021d3295",
+              "Name": "CDBL%20Logo[1].png",
+              "IsMain": false
+            }
+          ]
+        },
+        {
+          "Id": "17c57561-5483-4406-a7fd-87e9f9a51e2e",
+          "Name": ".project",
+          "Folders": [],
+          "Files": [
+            {
+              "Id": "3f866b0b-f7c0-4b47-9b13-0b68c4ab5101",
+              "Name": "design.json",
+              "IsMain": false
+            },
+            {
+              "Id": "bf14ee0e-cfee-4b33-85a9-0e2b7114723d",
+              "Name": "PackageBindingsMetadata.json",
+              "IsMain": false
+            }
+          ]
+        },
+        {
+          "Id": "ef728840-a2dc-4d8b-b63e-dcfe30809afb",
+          "Name": ".settings",
+          "Folders": [
+            {
+              "Id": "ef03d102-9462-4765-ad17-a11cdb2eb92e",
+              "Name": "Debug",
+              "Folders": [],
+              "Files": [
+                {
+                  "Id": "540831e4-b8bd-4b55-9f97-b98d7708f558",
+                  "Name": "settings-590bb27b.json",
+                  "IsMain": false
+                },
+                {
+                  "Id": "150333b7-0654-4a43-852e-6c1c40132582",
+                  "Name": "settings-a1b2dac1.json",
+                  "IsMain": false
+                },
+                {
+                  "Id": "5b3a5df7-40f5-4a33-91d1-21a8bd3097f7",
+                  "Name": "settings-1a5b880a.json",
+                  "IsMain": false
+                },
+                {
+                  "Id": "546f5a65-a594-46eb-a6f7-2ee62e27f4d5",
+                  "Name": "settings-afad0842.json",
+                  "IsMain": false
+                },
+                {
+                  "Id": "c13cb9c8-6e25-4b13-8bf7-a688e489dbf9",
+                  "Name": "settings-9e9290da.json",
+                  "IsMain": false
+                },
+                {
+                  "Id": "20a8f3dc-0f89-4ec6-a1f8-0ed1b6be7125",
+                  "Name": "settings-5190454b.json",
+                  "IsMain": false
+                }
+              ]
+            },
+            {
+              "Id": "32000a95-5647-48e1-9e68-5cac40e567fd",
+              "Name": "Design",
+              "Folders": [],
+              "Files": [
+                {
+                  "Id": "ea84b14e-2b67-4b9c-8458-de1dd189c916",
+                  "Name": "settings-afad0842.json",
+                  "IsMain": false
+                }
+              ]
+            },
+            {
+              "Id": "02bb960b-59e8-4251-8a20-d6557bfbb022",
+              "Name": "Release",
+              "Folders": [],
+              "Files": [
+                {
+                  "Id": "70d921bd-94b9-4ccb-ba0a-a29565d867a2",
+                  "Name": "settings-590bb27b.json",
+                  "IsMain": false
+                },
+                {
+                  "Id": "fb574423-f85d-400c-9b32-af51c25b1454",
+                  "Name": "settings-a1b2dac1.json",
+                  "IsMain": false
+                },
+                {
+                  "Id": "40931775-6ba0-44dc-bcd0-007071627b03",
+                  "Name": "settings-1a5b880a.json",
+                  "IsMain": false
+                },
+                {
+                  "Id": "5c5a2460-eb32-47cb-8d4c-95330dcd893a",
+                  "Name": "settings-afad0842.json",
+                  "IsMain": false
+                },
+                {
+                  "Id": "62bd11fb-a515-4aaf-b38c-d82996983de8",
+                  "Name": "settings-9e9290da.json",
+                  "IsMain": false
+                },
+                {
+                  "Id": "e2fd9153-9a73-42cf-962d-47b4f1756973",
+                  "Name": "settings-5190454b.json",
+                  "IsMain": false
+                }
+              ]
+            }
+          ],
+          "Files": []
+        }
+      ],
+      "Files": [
+        {
+          "Id": "3030a1e7-553a-4b16-bd4c-0effb86ae855",
+          "Name": "entry-points.json",
+          "IsMain": false
+        },
+        {
+          "Id": "9804f62a-12c8-4cd5-b026-e72a3b50e252",
+          "Name": "project.json",
+          "IsMain": false
+        },
+        {
+          "Id": "5bc37b92-c436-44a2-b548-0ce6d91ae366",
+          "Name": "Main.xaml",
+          "IsMain": true
+        },
+        {
+          "Id": "d3bd542e-3333-4d67-88c5-9cffaa573528",
+          "Name": "project.uiproj",
+          "IsMain": false
+        }
+      ]
+    },
+    "Dependencies": [
+      {
+        "Name": "UiPath.Excel.Activities",
+        "Version": "[2.11.4]"
+      },
+      {
+        "Name": "UiPath.Mail.Activities",
+        "Version": "[1.12.3]"
+      },
+      {
+        "Name": "UiPath.PDF.Activities",
+        "Version": "[3.6.0]"
+      },
+      {
+        "Name": "UiPath.System.Activities",
+        "Version": "[21.10.6]"
+      },
+      {
+        "Name": "UiPath.UIAutomation.Activities",
+        "Version": "[21.10.10]"
+      }
+    ],
+    "HasTrigger": false,
+    "DisableAutoUpdate": false
+  },
+  "OriginalFilesHash": {
+    ".settings/Release/settings-1a5b880a.json": "BEmEmJWJe\u002B8fSqTt3BLjlCJkqcJ4G/vA/orYF8xpxps=",
+    "project.json": "BLnnzgbNopKg2vsXokL2gga5WBsQbP2fdHZ0oaOpnLQ=",
+    ".project/PackageBindingsMetadata.json": "8XSdAo1I5JeeM2sYzjh6RguVXbzBesuz8TgSaynXnlc=",
+    ".settings/Debug/settings-9e9290da.json": "Nr3ZGiIbJUbUmZqJ2S9FgiT8xRUZbsPyeuiNUSlRhQs=",
+    "Main.xaml": "MUHrWO3tv7wbo2SguAwBsWLcuFlo1XmDGJCvsOZnY\u002Bc=",
+    ".objects/.type": "3CCz1dLN34L60zKCHKXppO/c7eSic6oZPStJW9zJKCU=",
+    ".objects/.metadata": "l8nQqsrATrEEXbJ89/NhEOMro\u002BkqQs7bqvSsMfr02TY=",
+    ".settings/Release/settings-9e9290da.json": "Nr3ZGiIbJUbUmZqJ2S9FgiT8xRUZbsPyeuiNUSlRhQs=",
+    ".settings/Release/settings-590bb27b.json": "Bd92OKmm50wpPz/gxvcHzE74iJ8BbfG7ZzEYrIr173o=",
+    ".settings/Debug/settings-afad0842.json": "G9QXfUpFG7Ft2Hv2iaAAdX0OHthnWBvWoCiC3J0\u002BIzg=",
+    ".settings/Debug/settings-1a5b880a.json": "BEmEmJWJe\u002B8fSqTt3BLjlCJkqcJ4G/vA/orYF8xpxps=",
+    ".settings/Debug/settings-5190454b.json": "KrhqmeksNPwYMyrlnurg0ERVC/vwteq5EhZjG9QtkMs=",
+    ".tmh/config.json": "h46eoezYT8wW99FSCp0OgQA/hsoWiFWwsBjpoTDPcZg=",
+    ".settings/Design/settings-afad0842.json": "0Ate4Ho3OtfOTaFZbep884JDtIPuwDlsbwEsOYkYJUg=",
+    ".settings/Debug/settings-a1b2dac1.json": "jZqSZbX3S0w0XkGaLeMGbXijEnXc3YpA7ZDmBRhwR4o=",
+    ".settings/Release/settings-a1b2dac1.json": "jZqSZbX3S0w0XkGaLeMGbXijEnXc3YpA7ZDmBRhwR4o=",
+    ".settings/Release/settings-5190454b.json": "KrhqmeksNPwYMyrlnurg0ERVC/vwteq5EhZjG9QtkMs=",
+    ".project/design.json": "D1f9H44ht\u002Bs2pCbXw5MEuq5cz60YKu8d7bi05HsrbK0=",
+    ".package/CDBL%20Logo[1].png": "fPI9H/m4vRtMZogSIv0tnip\u002BuRqkxdfxeaclwy9B4qc=",
+    ".settings/Release/settings-afad0842.json": "G9QXfUpFG7Ft2Hv2iaAAdX0OHthnWBvWoCiC3J0\u002BIzg=",
+    ".settings/Debug/settings-590bb27b.json": "Bd92OKmm50wpPz/gxvcHzE74iJ8BbfG7ZzEYrIr173o=",
+    "entry-points.json": "eS7kfbC8A328CJmNHwJbYVWUeu9Ug5u0A6oO\u002BxHDWu0=",
+    "project.uiproj": "XmdxRMrfW6Od41nQ3O2RYYoVkgg8vZFNb3v7n0NWcWg="
+  },
+  "OriginalFolders": [
+    ".entities",
+    ".tmh",
+    ".settings",
+    ".settings/Release",
+    ".project",
+    ".package",
+    ".templates",
+    ".objects/.index",
+    ".settings/Design",
+    ".settings/Debug",
+    ".objects",
+    ".objects/.index/.id"
+  ],
+  "StudioWebFiles": [
+    ".settings/Release/settings-1a5b880a.json",
+    "project.json",
+    ".project/PackageBindingsMetadata.json",
+    ".settings/Debug/settings-9e9290da.json",
+    "Main.xaml",
+    ".objects/.type",
+    ".objects/.metadata",
+    ".settings/Release/settings-9e9290da.json",
+    ".settings/Release/settings-590bb27b.json",
+    ".settings/Debug/settings-afad0842.json",
+    ".settings/Debug/settings-1a5b880a.json",
+    ".settings/Debug/settings-5190454b.json",
+    ".tmh/config.json",
+    ".settings/Design/settings-afad0842.json",
+    ".settings/Debug/settings-a1b2dac1.json",
+    ".settings/Release/settings-a1b2dac1.json",
+    ".settings/Release/settings-5190454b.json",
+    ".project/design.json",
+    ".package/CDBL%20Logo[1].png",
+    ".settings/Release/settings-afad0842.json",
+    ".settings/Debug/settings-590bb27b.json",
+    "entry-points.json",
+    "project.uiproj"
+  ]
+}

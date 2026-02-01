@@ -1,0 +1,6 @@
+{
+  "Name": "Total CDS Billing Solution",
+  "ProjectType": "Process",
+  "Description": "Combines Folder Creation, CDS Invoice, Suspension Invoice, Suspension List, Attachment 1 and 2 into a single process.\r\nRequires pdf and xlsx named susp, susplist, attach1 and attach2, and dpinfo.xlsx in D drive.",
+  "MainFile": "Main.xaml"
+}

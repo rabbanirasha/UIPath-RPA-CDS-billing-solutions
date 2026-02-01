@@ -1,0 +1,68 @@
+{
+  "name": "Total CDS Billing Solution",
+  "projectId": "1dd41af5-a37f-4218-9cf0-1e159acdfdc3",
+  "description": "Combines Folder Creation, CDS Invoice, Suspension Invoice, Suspension List, Attachment 1 and 2 into a single process.\r\nRequires pdf and xlsx named susp, susplist, attach1 and attach2, and dpinfo.xlsx in D drive.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.PDF.Activities": "[3.6.0]",
+    "UiPath.System.Activities": "[21.10.6]",
+    "UiPath.UIAutomation.Activities": "[21.10.10]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.6.0.0",
+  "projectVersion": "1.0.16",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false,
+    "saveToCloud": false
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "c689e7fc-a146-4ef3-97fb-41c14e01943a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": ".package/CDBL%20Logo[1].png"
+  },
+  "targetFramework": "Windows"
+}

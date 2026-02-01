@@ -1,0 +1,6 @@
+{
+  "Name": "AAMF Splitter",
+  "ProjectType": "Process",
+  "Description": "Splits PDF of whole suspension withdrawal invoice and renames it according to DP",
+  "MainFile": "Main.xaml"
+}

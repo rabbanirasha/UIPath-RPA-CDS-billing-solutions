@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
+    <title>BillingApp_mockup</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container" style="background-color: #dcdcdc;margin-top: 15vh;">
+        <div class="row" style="padding: 10px;">
+            <div class="col">
+                <h1 class="text-center" style="font-size: 35px;color: rgb(0,101,201);">Central Depository Bangladesh Limited</h1>
+                <h1 class="text-center" style="font-size: 20px;color: rgb(0,101,201);">Invoice Printing</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form class="border rounded-0 border-light" style="padding: 10px;margin: 20px;">
+                    <div class="form-group"><label>Bill Date</label><input id="bdate" class="form-control" type="text" required></div>
+                    <div class="form-group"><label >For Month</label><input id="bmonth" class="form-control" type="text" required></div>
+                    <div class="form-group d-md-flex justify-content-md-center align-items-md-center"><button onclick="SubmitValues()" class="btn btn-primary" type="submit" style="margin: 10px;background-color: rgb(255,255,255);color: rgb(0,0,0);">Generate</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+          function SubmitValues(){
+            var bdate = document.getElementById("bdate").value;
+            var bmonth = document.getElementById("bmonth").value;
+            window.external.setResult("http://10.64.15.2:8889/reports/rwservlet?report=D:\\Accounts_10g\\party_ledger10g\\invoice_printing_susp_dup_email.rdf&desformat=PDF&destype=CACHE&userid=billing/billing@cdblldb&mnyr="+bmonth+"&bill_date="+bdate+"&dp_from=");
+            return true;
+          }
+            
+          </script>
+</body>
+
+</html>
