@@ -26,7 +26,7 @@ Files that are needed for input:  attach1.xlsx |  attach2.xlsx | susp.xlsx | dpi
  	- the second column (B) is the number of BOs of each DPID.  
  	- the third column (C) is B/36.  
  	- the fourth column (D) is INT(C).  
- 	- the fifth column(E) is D+1, which is the no of pages for each DPID.  
+ 	- the fifth column(E) is IF(C>D,D+1,D), which is the no of pages for each DPID.  
 
 **AAMF RPA**
 
