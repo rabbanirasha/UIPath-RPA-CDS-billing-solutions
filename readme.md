@@ -1,17 +1,13 @@
-**UIPath-RPA-CDS-billing-solutions**
-
-
-
 * Automates billing of CDBL by taking custom input and feeding that to URL parameter to get numerous CDS invoices.
 * Splits the following pdfs based on spreadsheet data:
 
-&nbsp;	- susp (suspension) invoice, 
+ 	- susp (suspension) invoice,
 
-&nbsp;	- susp list, 
+ 	- susp list,
 
-&nbsp;	- attachment 1 
+ 	- attachment 1
 
-&nbsp;	- attachment 2 
+ 	- attachment 2
 
 * What required 500+ repetitions of a step amongst other steps now requires only one step.
 
@@ -19,7 +15,7 @@
 
 Total CDS Billing solutions
 
----------------------------
+---
 
 
 
@@ -48,15 +44,15 @@ Files that are needed for input:
 * The xlsx files specify how the pdf files are split and feeds parameter to URL for generating invoices. The URL is http://10.64.15.2:8889/reports/rwservlet?report=D:\\\\Accounts\_10g\\\\party\_ledger10g\\\\invoice\_printing\_susp\_dup\_email.rdf\&desformat=PDF\&destype=CACHE\&userid=billing/billing@cdblldb
 * For example, if you have in dpinfo.xlsx entered 10100, 10200, 10300 and so on, running the workflow sequence will -
 
-&nbsp;	- display a custom html input requiring 'bill date' and 'for month'
+ 	- display a custom html input requiring 'bill date' and 'for month'
 
-&nbsp;	- if 'bill date' and 'for month' values are given and 'generate' is clicked, 
+ 	- if 'bill date' and 'for month' values are given and 'generate' is clicked,
 
-&nbsp;	- the RPA fetches <URL>\&mnyr=**for\_month**\&bill\_date=**bill\_date**\&dp\_from=**10100,** and downloads the pdf. The pdf is saved in the respective folder.
+ 	- the RPA fetches <URL>\&mnyr=**for\_month**\&bill\_date=**bill\_date**\&dp\_from=**10100,** and downloads the pdf. The pdf is saved in the respective folder.
 
-&nbsp;	- the cycle is repeated for the next entries 10200, 10300 and so on and the "*\&dp\_from="* parameter changes accordingly.
+ 	- the cycle is repeated for the next entries 10200, 10300 and so on and the "*\&dp\_from="* parameter changes accordingly.
 
-&nbsp;	- So as there are usually 500 entries, 500 pdfs will be downloaded automatically, eliminating strenous repetitive manual work and reducing overall completion time significantly.
+ 	- So as there are usually 500 entries, 500 pdfs will be downloaded automatically, eliminating strenous repetitive manual work and reducing overall completion time significantly.
 
 
 
@@ -67,15 +63,15 @@ Files that are needed for input:
 
 * How the xlsx files are structured (eg. susp.xlsx):
 
-&nbsp;	- the first column (A) is the DPID.
+ 	- the first column (A) is the DPID.
 
-&nbsp;	- the second column (B) is the number of BOs of each DPID.
+ 	- the second column (B) is the number of BOs of each DPID.
 
-&nbsp;	- the third column (C) is B/36.
+ 	- the third column (C) is B/36.
 
-&nbsp;	- the fourth column (D) is INT(C).
+ 	- the fourth column (D) is INT(C).
 
-&nbsp;	- the fifth column(E) is D+1, which is the no of pages for each DPID.
+ 	- the fifth column(E) is D+1, which is the no of pages for each DPID.
 
 
 
@@ -83,11 +79,9 @@ Files that are needed for input:
 
 AAMF RPA
 
---------
+---
 
 
 
 This is just a simple pdf splitter which is also a part of *Total CDS Billing solutions.* Just the same like before, the xlsx specifies how the pdf should split and saves the splits into respective folder.
-
-
 
