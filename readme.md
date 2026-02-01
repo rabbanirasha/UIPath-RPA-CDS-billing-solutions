@@ -1,9 +1,9 @@
 * Automates billing of CDBL by taking custom input and feeding that to URL parameter to get numerous CDS invoices.
 * Splits the following pdfs based on spreadsheet data:
- 	- susp (suspension) invoice,
- 	- susp list,
- 	- attachment 1
- 	- attachment 2
+ 	- susp (suspension) invoice,  
+ 	- susp list,  
+ 	- attachment 1  
+ 	- attachment 2  
 * What required 500+ repetitions of a step amongst other steps now requires only one step.
 
 **Total CDS Billing solutions**
